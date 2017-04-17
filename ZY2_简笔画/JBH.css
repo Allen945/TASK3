@@ -1,0 +1,61 @@
+body{   
+	    background:#1a0c2c;
+	    height:100%;
+		width:100%;
+		overflow:hidden;
+	}
+/* 背景颜色*/
+html{   
+	    height:100%;
+	    width:100%;
+	}
+
+.con{ 
+		width:200px;
+		height:200px;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin:-100px 0 0 -100px;
+		-webkit-animation:rotate_x 10s linear 0s infinite;
+		animation:rotate_x 10s linear 0s infinite;
+	}
+/* 容器*/
+.Y1{
+		height: 424px;
+		width: 424px;
+		border: 10px solid black;
+	    border-radius: 50%;
+	    margin-left: 455px;
+	    margin-top: 92px;
+	    float: left;
+    }
+/* 地球轨道*/
+.Y2{
+		height: 50px;
+		width: 50px;
+		border: 3px solid black;
+	    border-radius: 50%;
+	    margin-top: -135px;
+	    background: rgba(255, 255, 255, 0.76);
+	    text-align: center;
+}
+/* 月球*/
+.Y3{
+		height: 200px;
+		width: 200px;
+		border: 3px solid black;
+	    border-radius: 50%;
+	    background: rgba(51, 155, 218, 0.83);
+	    margin-left: -320px;
+	    margin-top: 220px;
+	    float: left;
+	    text-align: center;
+	    font-size:38px;
+    }
+/* 地球*/
+
+@-webkit-keyframes rotate_x{0%{-webkit-transform:rotateZ(45deg)}100%{-webkit-transform:rotateZ(-315deg)}}
+
+/* 动画效果*/
+

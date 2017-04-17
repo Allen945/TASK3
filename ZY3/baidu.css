@@ -1,0 +1,162 @@
+   *{margin:0;padding:0;}
+   .box{width: 1370px;margin: auto;}
+    /* 导航栏属性设置*/
+    nav { width: 510px ; float: right;}
+    nav ul ul {display: none;}
+    nav ul li:hover > ul {display: block;}
+    nav ul {padding: 0 15px;list-style: none;position: relative;display:inline-table; }
+    nav ul li {float: left; }
+    nav ul li:hover a {color: blue; }
+    nav ul li a {display: block; padding: 25px 10px 10px 10px;color:#333;font-size: 13px;  }               
+    nav ul ul {background: #ffffff;border-radius: 0px;box-shadow:2px 2px 2px rgba(0,0,0,.6); padding: 0px;position: absolute;top: 100%; }
+    nav ul ul li {float: none; position: relative; }
+    nav ul ul li a { padding:5px 0px 5px 0px;   text-decoration: none;font-size: 13px;}   
+    nav ul ul li a:hover { background: #0080FF;  color: white; }
+  
+  /* 定义一个容器*/
+ 
+ .con{ height:400px;
+       width: 1378px;
+  	   text-align: center;
+  	   padding-top:50px;
+  	   font-size: 0;
+	 }
+ /* 百度图标属性设置*/
+ .con img{ padding-bottom: 15px;} 
+ /* 文本属性设置*/    
+ .con input{ display: inline-block;
+   	         vertical-align: middle;
+   	         border: none;
+ 	            
+ }
+ .con .so{ width: 600px;
+   	       height: 37px; 
+   	       border:1px solid #9FB6CD; 
+   	       padding-left:5px;          
+ 	      }
+  /* 提交按钮属性设置*/
+ .con .sub{ width: 80px;
+ 	        height: 40px;
+ 	        background:#0080FF;
+ 	        color:#fff;
+ 	        cursor:pointer;
+ 	       }
+
+ .con .sub:hover{background: #06c;}  
+ /* 底部文字声明部分属性设置*/
+ .foot{ position: absolute;
+   	    width: 100%;
+   	    bottom: 44px;
+   	    text-align: center; 
+   	    font-size:13px;
+   	    font-family: arial;
+ 	   }
+ .foot a{color: #333;}	   
+ .foot:hover a {color:blue ; }
+ @media only screen and (min-width: 1024px){
+.box{width: 1370px;margin: auto;}
+    /* 导航栏属性设置*/
+    nav { width: 510px ; float: right;}
+    nav ul ul {display: none;}
+    nav ul li:hover > ul {display: block;}
+    nav ul {padding: 0 15px;list-style: none;position: relative;display:inline-table; }
+    nav ul li {float: left; }
+    nav ul li:hover a {color: blue; }
+    nav ul li a {display: block; padding: 25px 10px 10px 10px;color:#333;font-size: 13px;  }               
+    nav ul ul {background: #ffffff;border-radius: 0px;box-shadow:2px 2px 2px rgba(0,0,0,.6); padding: 0px;position: absolute;top: 100%; }
+    nav ul ul li {float: none; position: relative; }
+    nav ul ul li a { padding:5px 0px 5px 0px;   text-decoration: none;font-size: 13px;}   
+    nav ul ul li a:hover { background: #0080FF;  color: white; }
+  
+  /* 定义一个容器*/
+ 
+ .con{ height:400px;
+       width: 1378px;
+       text-align: center;
+       padding-top:50px;
+       font-size: 0;
+   }
+ /* 百度图标属性设置*/
+ .con img{ padding-bottom: 15px;} 
+ /* 文本属性设置*/    
+ .con input{ display: inline-block;
+             vertical-align: middle;
+             border: none;
+              
+ }
+ .con .so{ width: 600px;
+           height: 37px; 
+           border:1px solid #9FB6CD; 
+           padding-left:5px;          
+        }
+  /* 提交按钮属性设置*/
+ .con .sub{ width: 80px;
+          height: 40px;
+          background:#0080FF;
+          color:#fff;
+          cursor:pointer;
+         }
+
+ .con .sub:hover{background: #06c;}  
+ /* 底部文字声明部分属性设置*/
+ .foot{ position: absolute;
+        width: 100%;
+        bottom: 44px;
+        text-align: center; 
+        font-size:13px;
+        font-family: arial;
+     }
+ .foot a{color: #333;}     
+ .foot:hover a {color:blue ; }}
+ }
+ @media only screen and (min-width: 400px)and(max-width: 1024px)
+{}
+@media only screen and (max-width: 400px){
+  .box{width: 400px;margin: auto;}
+    /* 导航栏属性设置*/
+    nav { width: 400px ; float: right;}
+    nav ul ul {display: none;}
+    nav ul li{margin: -10px 10px;}
+  
+  /* 定义一个容器*/
+ 
+ .con{ height:280px;
+       width:300px;
+       padding-left: 35px;
+       padding-top: 40px;
+       font-size: 0;
+   }
+ /* 百度图标属性设置*/
+ .con img{ padding-bottom: 15px;} 
+ /* 文本属性设置*/    
+ .con input{ display: inline-block;
+             vertical-align: middle;
+             border: none;
+              
+ }
+ .con .so{ width: 210px;
+           height: 38px; 
+           border:1px solid #9FB6CD; 
+           padding-left:5px;          
+        }
+  /* 提交按钮属性设置*/
+ .con .sub{ width: 81px;
+          height: 40px;
+          background:#0080FF;
+          color:#fff;
+         
+         }
+
+ .con .sub:hover{background: #06c;}  
+ /* 底部文字声明部分属性设置*/
+ .foot{ position: absolute;
+        width: 400px;
+        text-align: center; 
+        font-size:13px;
+        font-family: arial;
+        display: block;
+     }
+ .foot a{color: #333;}     
+ .foot:hover a {color:blue ; }
+}
+}
